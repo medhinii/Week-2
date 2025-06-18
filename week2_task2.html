@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 2</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 2rem;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, auto);  
+      gap: 20px; 
+    }
+
+    .card {
+      background-color:rgb(225, 211, 211);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      cursor: pointer;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+    
+    }
+
+    .card-content {
+      padding: 1rem;
+    }
+
+    .card-content h3 {
+      margin-top:0.5rem;
+    }
+
+    .card-content p {
+      color: #555;
+      font-size: 0.9rem;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <div class="grid-container">
+    
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcCIjt9-h3vACwjakNG9ehKJOKZsMR15O42w&s" alt="Image 1">
+      <div class="card-content">
+        <h3>Sunflower</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, at veritatis a nam reiciendis totam eligendi impedit suscipit dolor accusamus minima consectetur perferendis. Porro facere molestiae, neque optio ducimus nulla.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj3JAtTURd86e55SPj1CIk1eZVt7ZUw8gg4g&s" alt="Image 2">
+      <div class="card-content">
+        <h3>Lavender</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, accusamus asperiores! Ut tenetur rem aperiam eveniet molestiae eos architecto, optio voluptates iste fugit non, nisi maiores eligendi fugiat ipsum voluptatem.</p>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQznSUipw7u1sWW24l3fer-VQ8AJzo3JAQDpw&s" alt="Image 3">
+      <div class="card-content">
+        <h3>Rose</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sunt unde voluptatibus omnis modi nemo quisquam, praesentium doloremque rerum ipsam recusandae ad tempora quos expedita, cumque atque repudiandae nulla eligendi.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://jugyah-dev-property-photos.s3.ap-south-1.amazonaws.com/Screenshot_2024_11_21_152734_159dfdf49c.webp" alt="Image 4">
+      <div class="card-content">
+        <h3>Tulip</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati error pariatur dolorem quo porro, inventore dolor eaque soluta ullam repellat quae! Explicabo fugit neque cupiditate quidem quibusdam! Voluptatum, esse ducimus?</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd_R4FqbPufQpdk_uNfn7PuE6uQ9lfQ704Pw&s" alt="Image 5">
+      <div class="card-content">
+        <h3>Lotus</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam praesentium itaque quasi consequuntur officiis omnis fugiat vitae voluptates, at doloremque excepturi tempore earum eligendi velit est reiciendis vel non.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWU9ldhQIJDrNuTHJ_0hiU3h1PZvSCEoc1pw&s" alt="Image 6">
+      <div class="card-content">
+        <h3>Dahlia</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sapiente possimus numquam eligendi quae! Ab illo, facilis totam fuga adipisci dolores non eius sapiente, ullam expedita at nesciunt ipsam perspiciatis!</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

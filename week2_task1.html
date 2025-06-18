@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task 1</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(57, 56, 56);
+      padding: 1rem 2rem;
+      color: white;
+    }
+
+    .navbar-item {
+      margin-left: 1rem;
+      cursor: pointer;
+    }
+
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+      text-align: center;
+      
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 3px;
+      
+    }
+
+    .card-content {
+      padding: 1.5rem;
+    }
+
+    .card-content h2 {
+      margin-top: 0.5rem;
+    }
+
+    .card-content p {
+      color:rgb(91, 85, 85);
+      font-size: 15px;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      background-color: rgb(95, 95, 247);
+      border-radius: 300px;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .read-more:hover {
+      background-color: rgb(75, 75, 174)
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="navbar-item">Home</div>
+    <div class="navbar-item">About</div>
+    <div class="navbar-item">Contact</div>
+  </div>
+
+  <div class="center-container">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSuR58xNozBfeaK3b5Vxc3kJGMjtbY7xsEmw&s" alt="Card Image">
+      <div class="card-content">
+        <h2>Beautiful Scenery</h2>
+        <p>Experience the tranquility of nature with our handpicked destinations that calm your soul.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
